@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel='stylesheet' href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            AI Thesis Helper
+        </title>
+    </head>
+
+    <body>
+        <!--Back-end Integration-->
+
+        <iframe src="https://36186d261dbc30712a.gradio.live"></iframe>
+
+        <!--Buttons and classes-->
+
+        <div class = "vertical_menu_left">
+            <h1 class = "vml_title">AI Thesis Helper</h1>
+        </div>
+
+        <div class="top_right_upgrades">
+            <button class = "tru_but">Upgrades!</button>
+        </div>
+
+        <div class = "bcdml">
+            <button class = "bckclrbot">Background-Colour</button>
+            <div class = "bcdm">
+                <select id="colorSelector" onchange="changeBackground()">
+                    <option value="gray">Gray</option>
+                    <option value="white">White</option>
+                    <option value="purple">Purple</option>
+                    <option value="brown">Brown</option>
+                    <option value="lime">Lime</option>
+                    <option value="cyan">Cyan</option>
+                </select>
+            </div>
+        </div>
+
+        <!--Script Function-->
+
+        <script>
+            function changeBackground() {
+                var selectedColor = document.getElementById("colorSelector").value;
+                document.body.style.backgroundColor = selectedColor;
+            }
+        </script>
+
+    </body>
+</html>

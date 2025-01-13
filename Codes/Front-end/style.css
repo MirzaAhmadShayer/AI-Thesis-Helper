@@ -1,0 +1,137 @@
+body{
+    background-color: gray;
+    background-size: cover;
+}
+
+/*Back End Integration Begin*/
+iframe {
+    position: fixed;
+    top: 65px;
+    width: 99%;
+    height: 570px;
+    border: none;
+}
+/*Back End Integration End*/
+
+/*Vertical left menu and details begin*/
+.vertical_menu_left{
+    background-image: url(file:///D:/University/BRACU/Postgraduate/CSE798%20-%20Project/Front_End/aib.jpg);
+    background-size: 270px 50px;
+    background-repeat: no-repeat;
+    top: 20px;
+    left: 20px;
+}
+
+.vml_title{
+    color: greenyellow;
+    font: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 25px;
+}
+/*Vertical left menu and details end*/
+
+/*Upgrade Button Begin*/
+.top_right_upgrades{
+    position: fixed;
+    right: 30px;
+    top: 10px;
+}
+
+.tru_but{
+    color: blue;
+    font: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.tru_but:hover{
+    color: black;
+    border-color: blue;
+}
+
+.tru_but::before{
+    content: "New Features Coming Soon!";
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-style: italic;
+    visibility: hidden;
+    opacity: 0;
+    width: 100px;
+    position: fixed;
+    right: 33px;
+    top: 50px;
+    transition: opacity 1s ease-in-out;
+}
+
+.tru_but:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Upgrade Button End*/
+
+/*Background Color Dropdown Menu Begin*/
+
+.bcdml{
+    position: fixed; 
+    right: 150px;
+    top: 10px;
+}
+
+.bckclrbot{
+    font-size: 20px;
+    padding: 5px 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.bcdm{
+    display: none;
+    position: absolute;
+    background-color: white;
+    left: 50px;
+}
+
+.bcdm a{
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.bcdm a:hover{
+    color: black;
+}
+
+.bcdml:hover .bcdm{
+    display: block;
+    z-index: 1;
+}
+
+.bcdml:hover .bckclrbot{
+    background-color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: white;
+}
+
+select {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+    width: 173px;
+    right: 150px;
+    position: fixed;
+}
+
+option {
+    font-size: 20px;
+}
+
+/*Background Color Color Dropdown Menu End*/
