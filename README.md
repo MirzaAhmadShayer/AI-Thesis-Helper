@@ -1,2 +1,4 @@
 # AI-Thesis-Helper
-Masters in Engineering Project
+Masters in Engineering in Computer Science and Engineering Project
+
+
