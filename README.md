@@ -40,12 +40,12 @@ Use case diagram
   <img src= "https://github.com/user-attachments/assets/53f41776-ce32-40db-9744-14d0a84ba671"/>
 </p>
 
-class diagram
+Class diagram
 <p align="center">
   <img src= "https://github.com/user-attachments/assets/793b7228-e6b7-4410-8f5b-e527bf0e890c"/>
 </p>
 
-data flow diagram
+Data flow diagram
 <p align="center">
   <img src= "https://github.com/user-attachments/assets/9faf0db6-29a9-4934-9fa3-0a57f71ae972"/>
 </p>
@@ -74,12 +74,12 @@ Results:
    <img src= "https://github.com/user-attachments/assets/e747ee8f-0e02-47ec-8568-ef506f3fded4"/>
 </p>
 
-- Perplexity
+- Perplexity with equation
 <p align="center">
    <img src= "https://github.com/user-attachments/assets/7ce682a1-8245-43cd-8d40-d3df88d7924e"/>
 </p>
 
-- Spelling and Grammer Accuracy
+- Spelling and Grammer Accuracy out of 1.0
 <p align="center">
    <img src= "https://github.com/user-attachments/assets/813b1bf9-aab6-45d5-b21b-f19fe0ca1210"/>
 </p>
