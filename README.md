@@ -33,20 +33,23 @@ Project challenges with choices include:
 - Integration - Gradio framwork
 - Machine training - Using colab GPU to train and fine-tune machine
 
-The background and other details of the research are throughly explained in the report.
+The background, other details and future works of the research are throughly explained in the report.
 
 Use case diagram
 <p align="center">
   <img src= "https://github.com/user-attachments/assets/53f41776-ce32-40db-9744-14d0a84ba671"/>
 </p>
+
 class diagram
 <p align="center">
   <img src= "https://github.com/user-attachments/assets/793b7228-e6b7-4410-8f5b-e527bf0e890c"/>
 </p>
+
 data flow diagram
 <p align="center">
   <img src= "https://github.com/user-attachments/assets/9faf0db6-29a9-4934-9fa3-0a57f71ae972"/>
 </p>
+
 ER diagram
 <p align="center">
    <img src= "https://github.com/user-attachments/assets/5b33a783-9ac7-4d06-901f-33d8b954a391"/>
@@ -60,6 +63,31 @@ Chatbot Answer
 
 ![Transformer Rearsch Papers](https://github.com/user-attachments/assets/e5682695-3c4d-4059-b8d9-7cf5059505dc)
 
-The results
+Results: 
 
+- Loss during model tuning
 
+![model loss](https://github.com/user-attachments/assets/8ff6d7ce-18bb-47f0-8383-37fb3db9202f)
+
+- Precision, Recall and F1 score
+<p align="center">
+   <img src= "https://github.com/user-attachments/assets/e747ee8f-0e02-47ec-8568-ef506f3fded4"/>
+</p>
+
+- Perplexity
+<p align="center">
+   <img src= "https://github.com/user-attachments/assets/7ce682a1-8245-43cd-8d40-d3df88d7924e"/>
+</p>
+
+- Spelling and Grammer Accuracy
+<p align="center">
+   <img src= "https://github.com/user-attachments/assets/813b1bf9-aab6-45d5-b21b-f19fe0ca1210"/>
+</p>
+
+- Comparision of Chatbots - AI Thesis Helper and ChatGPT
+![ait,cgpt](https://github.com/user-attachments/assets/f8c34357-6a03-4af0-988b-dfa41f6dbeaa)
+
+- Comparision of Chatbots - AI Thesis Helper and PerplexityAI
+![ait,pai](https://github.com/user-attachments/assets/afd4f8be-a077-4927-a3bc-a5658b590d91)
+
+All folders contain all other stuff.
